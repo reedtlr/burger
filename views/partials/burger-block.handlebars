@@ -3,9 +3,9 @@
 	<img src="/assets/img/vBurger1.jpg" class="rounded" alt="veggie burger imag">
 	{{burger_name}}
 
-	<button class="change-devoured btn-primary" data-id="{{id}}" data-newDevoured="{{devoured}}">
+	<button class="change-devoured btn-primary shadow rounded" data-id="{{id}}" data-newDevoured="{{devoured}}">
 		{{#if devoured}}All gone!{{else}}Ready to Eat!{{/if}}
 	</button>
 
-	<button class="delete-burger btn-danger" data-id="{{this.id}}">DELETE!</button>
+	<button class="delete-burger btn-danger shadow rounded" data-id="{{this.id}}">DELETE!</button>
 </li>

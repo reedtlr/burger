@@ -1,7 +1,9 @@
 li {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
+    background: #8beb83;
+    font-size: 25px;
+    
   }
   
   .label {
@@ -12,9 +14,11 @@ li {
     padding: 5px;
     margin: 5px;
     background: aqua;
+    font-size: 18px;
   }
   
   .form-group {
     margin-bottom: 5px;
+    font-size: 18px;
   }
   
