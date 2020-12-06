@@ -1,9 +1,11 @@
+<br>
 <li>
+	<img src="../../public/assets/img/vBurger1.jpg" class="rounded" alt="veggie burger image">
 	{{burger_name}}
 
-	<button class="change-devoured" data-id="{{id}}" data-newDevoured="{{devoured}}">
+	<button class="change-devoured btn-primary" data-id="{{id}}" data-newDevoured="{{devoured}}">
 		{{#if devoured}}All gone!{{else}}Ready to Eat!{{/if}}
 	</button>
 
-	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+	<button class="delete-burger btn-danger" data-id="{{this.id}}">DELETE!</button>
 </li>
