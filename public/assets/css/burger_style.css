@@ -1,7 +1,6 @@
 li {
     padding: 5px;
     margin: 5px;
-    background: #8beb83;
     font-size: 25px;
     
   }
@@ -10,10 +9,9 @@ li {
     font-weight: bold;
   }
   
-  .create-update-form {
+  .create-form {
     padding: 5px;
     margin: 5px;
-    background: aqua;
     font-size: 18px;
   }
   
