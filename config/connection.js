@@ -18,5 +18,14 @@ connection.connect(function(err) {
   console.log("connected as id " + connection.threadId);
 });
 
+if (process.env.JAWSDB_URL) {
+  connection = mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    password: "root",
+    database: "burgers_db"
+  });
+};
+
 // Export connection for our ORM to use.
 module.exports = connection;
